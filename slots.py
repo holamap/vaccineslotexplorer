@@ -1,6 +1,6 @@
-# set in 1 minutes loop or deploy in cron 
+# set in 1 minutes loop or deploy in cron on your home pc/laptop
 # can use python 3
-# you can creare replica of codes with different pin and dates by changing params  or improve the code or simply incorporating input params in the code
+# you can create replica of codes with different pin and dates by changing params  or improve the code or simply incorporating input params in the code
 
 import requests
 import json
