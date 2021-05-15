@@ -1,3 +1,7 @@
+# set in 1 minutes loop or deploy in cron 
+# can use python 3
+# you can creare replica of codes with different pin and dates by changing params  or improve the code or simply incorporating input params in the code
+
 import requests
 import json
 
@@ -26,5 +30,5 @@ for doc in response.json()["centers"]:
 		if session['min_age_limit'] == young_age_group and session['available_capacity_dose1'] > 0:
 			print(session['available_capacity_dose1'])
 			print('\a')	
-			## This ^^ print will give you small ding-ding sound make speakers up before deployment
+			## This ^^ print will give you small ding-ding system default ping sound make speakers up before deployment
 
