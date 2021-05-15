@@ -25,8 +25,8 @@ headers.update(
 )
 response = requests.get(url=url, params= params, headers=headers)
 
-for doc in response.json()["centers"]:
-	for session in doc['sessions']:
+for center in response.json()["centers"]:
+	for session in center['sessions']:
 		if session['min_age_limit'] == young_age_group and session['available_capacity_dose1'] > 0:
 			print(session['available_capacity_dose1'])
 			print('\a')	
